@@ -19,7 +19,7 @@ function ajax(url, options, callback, data, cache) {
     };
     x.send(JSON.stringify(data));
   } catch (e) {
-    window.console && console.log(e);
+    console.log(e);
   }
 };
 
